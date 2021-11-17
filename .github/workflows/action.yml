@@ -33,7 +33,7 @@ jobs:
 #        with:
 #          extra_args: --files ${{steps.file_changes.outputs.files}}
 #
-#      - name: PR comment
+#      - name: PR Comment
 #        if: failure()
 #        uses: actions/github-script@v4
 #
